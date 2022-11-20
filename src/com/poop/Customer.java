@@ -1,7 +1,7 @@
 package com.poop;
 
 
-public class Customer {
+public class Customer implements CustomerReadOnly {
     public Customer(String name) {
         this.name = name;
     }
